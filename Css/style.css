@@ -32,7 +32,7 @@ gris #D8D8D8
 
 .ul-nav {
     display: flex;
-    width: 768px;
+    width: 750px;
     justify-content: space-around;
     list-style: none;
    
@@ -241,8 +241,24 @@ h2 {
     background-color: #D8D8D8;
     transition: .3;
     box-shadow: 2px 2px 2px #88898c;
+}
+
+
+/* TIPS SALUDABLES SECTION */
+
+.grid-tips{
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    grid-template-rows: repeat(2, 400px);
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
 
 }
+/* 
+.grid-tips iframe {
+    margin: 10px;
+} */
 
 
 /* FOOTER SECTION */
@@ -286,6 +302,12 @@ width: 10vh;
         align-content: center;
     }
 
+    .grid-tips{
+        grid-template-columns: repeat(2, 350px);
+        grid-template-rows: repeat(3, 400px);
+      
+    }
+
 
 }
 
@@ -305,11 +327,17 @@ width: 10vh;
     }
 
     .ul-nav {
-        width: 400px;
+        width: 350px;
         font-size: 13px;
         text-align: center;
 
 align-content: center
+    }
+
+    .grid-tips{
+        grid-template-columns: repeat(1, 350px);
+        grid-template-rows: repeat(5, 400px);
+      
     }
 
     .contacto-flex {
