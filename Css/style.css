@@ -35,6 +35,7 @@ gris #D8D8D8
     width: 768px;
     justify-content: space-around;
     list-style: none;
+   
 
 }
 
@@ -45,18 +46,29 @@ li {
     text-decoration: none;
     font-weight: bolder;
     padding: 10px;
-
+    border-radius: 7px;
 
 }
 
+
 .ul-nav a {
     text-decoration: none;
+}
+
+.ul-nav li:hover {
+    scale: 1.05;
+    background-color: #D8D8D8;
+    transition: .3;
+    box-shadow: 2px 2px 2px #88898c;
 }
 
 a {
     color: white;
 }
 
+a:hover {
+    color: #408E91;
+}
 
 
 /* MAIN SECTION */
@@ -100,6 +112,8 @@ h2 {
 #main-index img {
     width: 100vw;
 }
+
+
 
 .bannerschicosindex {
     display: flex;
@@ -184,7 +198,8 @@ h2 {
 /* MAIN CLASES */
 
 #main-clases {
-    background-color: #E49393;
+    background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+    /* background-color: #E49393; */
 }
 
 .titulo-clases {
@@ -221,16 +236,30 @@ h2 {
     text-align: center;
 }
 
+.botonclases:hover {
+    scale: 1.05;
+    background-color: #D8D8D8;
+    transition: .3;
+    box-shadow: 2px 2px 2px #88898c;
+
+}
+
 
 /* FOOTER SECTION */
 .footer {
     background-color: #408E91;
-    padding: 15px;
+    padding: 10px;
     height: 15vh;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    align-items: center
 }
+
+.footer a img{
+width: 10vh;
+}
+
 
 @media (max-width: 1200px) {
     .header {
@@ -276,7 +305,11 @@ h2 {
     }
 
     .ul-nav {
-        width: 300px;
+        width: 400px;
+        font-size: 13px;
+        text-align: center;
+
+align-content: center
     }
 
     .contacto-flex {
