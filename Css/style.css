@@ -355,5 +355,8 @@ h2 {
         display: none;
     }
 
-
+.herramientas-meditacion iframe{
+width: 400px;
+height: 240px;
+}
 }
