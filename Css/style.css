@@ -35,7 +35,7 @@ gris #D8D8D8
     width: 750px;
     justify-content: space-around;
     list-style: none;
-   
+
 
 }
 
@@ -191,7 +191,7 @@ h2 {
 
 .mapa {
     padding: 20px;
-   justify-content: center;
+    justify-content: center;
     width: 90vw;
 }
 
@@ -246,7 +246,7 @@ h2 {
 
 /* TIPS SALUDABLES SECTION */
 
-.grid-tips{
+.grid-tips {
     display: grid;
     grid-template-columns: repeat(3, 350px);
     grid-template-rows: repeat(2, 400px);
@@ -255,6 +255,7 @@ h2 {
     align-items: center;
 
 }
+
 /* 
 .grid-tips iframe {
     margin: 10px;
@@ -272,8 +273,8 @@ h2 {
     align-items: center
 }
 
-.footer a img{
-width: 10vh;
+.footer a img {
+    width: 10vh;
 }
 
 
@@ -290,6 +291,7 @@ width: 10vh;
 
     .clases {
         flex-direction: column;
+        align-content: space-around
     }
 
     .clases p {
@@ -302,10 +304,10 @@ width: 10vh;
         align-content: center;
     }
 
-    .grid-tips{
+    .grid-tips {
         grid-template-columns: repeat(2, 350px);
         grid-template-rows: repeat(3, 400px);
-      
+
     }
 
 
@@ -330,14 +332,14 @@ width: 10vh;
         width: 350px;
         font-size: 13px;
         text-align: center;
-
-align-content: center
+        justify-content: flex-end;
+       
     }
 
-    .grid-tips{
+    .grid-tips {
         grid-template-columns: repeat(1, 350px);
         grid-template-rows: repeat(5, 400px);
-      
+
     }
 
     .contacto-flex {
