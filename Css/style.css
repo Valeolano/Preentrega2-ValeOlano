@@ -21,19 +21,18 @@ gris #D8D8D8
     display: inline;
 }
 
-.header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: center;
+
+.navbar-expand-lg {
+    display: flex !important;
+    flex-basis: auto;
+    justify-content: space-around;
+    
 
 }
 
+
 .ul-nav {
-    display: flex;
-    width: 750px;
-    justify-content: space-around;
+
     list-style: none;
 
 
@@ -306,6 +305,7 @@ h2 {
     }
 
 
+    
 }
 
 @media (max-width: 768px) {
@@ -360,3 +360,4 @@ width: 400px;
 height: 240px;
 }
 }
+
