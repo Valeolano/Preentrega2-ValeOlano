@@ -13,6 +13,8 @@ verde oscuro #245953 verde principal #408E91 Salmon #E49393 gris #D8D8D8*/
   display: flex !important;
   flex-basis: auto;
   justify-content: space-around; }
+  .navbar-expand-lg nav a img {
+    width: 25hv; }
 
 li {
   list-style: none;
@@ -67,59 +69,6 @@ h2 {
 .banner {
   padding: 20px; }
 
-/* MAIN MEDITACION */
-.respiracion-img {
-  max-width: 100vw; }
-
-.frase-2 {
-  color: #408E91; }
-
-.parrafo {
-  padding: 20px;
-  text-align: justify;
-  margin-left: 10vw;
-  margin-right: 10vw;
-  align-items: center;
-  line-height: 30px;
-  font-size: 20px;
-  max-width: 90vw; }
-
-.herramientas-meditacion {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-evenly; }
-
-/* MAIN CONTACTO */
-.contacto-flex {
-  background-color: #E49393;
-  text-decoration-color: white;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  padding: 20px; }
-
-.contacto {
-  display: flex;
-  flex-direction: column;
-  align-items: center; }
-  .contacto h2 {
-    color: white;
-    padding: 10px; }
-  .contacto h3 {
-    color: white;
-    padding: 10px; }
-
-.formulario {
-  padding: 20px;
-  border-color: #408E91; }
-
-.mapa {
-  padding: 20px;
-  justify-content: center;
-  width: 90vw; }
-
 /* MAIN CLASES */
 #main-clases {
   background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%); }
@@ -157,6 +106,29 @@ h2 {
     transition: .3;
     box-shadow: 2px 2px 2px #88898c; }
 
+/* MAIN MEDITACION */
+.respiracion-img {
+  max-width: 100vw; }
+
+.frase-2 {
+  color: #408E91; }
+
+.parrafo {
+  padding: 20px;
+  text-align: justify;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  align-items: center;
+  line-height: 30px;
+  font-size: 20px;
+  max-width: 90vw; }
+
+.herramientas-meditacion {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly; }
+
 /* TIPS SALUDABLES SECTION */
 .grid-tips {
   display: grid;
@@ -165,6 +137,36 @@ h2 {
   margin: auto;
   justify-content: space-around;
   align-items: center; }
+
+/* MAIN CONTACTO */
+.contacto-flex {
+  background-color: #E49393;
+  text-decoration-color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px; }
+
+.contacto {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .contacto h2 {
+    color: white;
+    padding: 10px; }
+  .contacto h3 {
+    color: white;
+    padding: 10px; }
+
+.formulario {
+  padding: 20px;
+  border-color: #408E91; }
+
+.mapa {
+  padding: 20px;
+  justify-content: center;
+  width: 90vw; }
 
 /* FOOTER SECTION */
 .footer {

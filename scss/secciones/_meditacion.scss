@@ -1,0 +1,26 @@
+/* MAIN MEDITACION */
+.respiracion-img {
+    max-width: 100vw;
+}
+
+.frase-2 {
+    @extend .frase-1;
+    color: $verde;
+}
+
+
+.parrafo {
+    padding: 20px;
+    text-align: justify;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    align-items: center;
+    line-height: 30px;
+    font-size: 20px;
+    max-width: 90vw;
+}
+
+.herramientas-meditacion {
+    @include flex(row, wrap, space-evenly)
+
+}

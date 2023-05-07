@@ -1,0 +1,48 @@
+/* MAIN CLASES */
+#main-clases {
+    background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+}
+
+.titulo-clases {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.clases {
+
+    @include flex(row, wrap, space-evenly);
+    padding: 30px;
+    align-items: center;
+
+    p {
+        text-align: justify;
+        width: 40vw;
+        line-height: 30px;
+        font-size: 20px;
+    }
+
+    img {
+        width: 45vw;
+    }
+
+}
+
+
+.botonclases {
+    background-color: $verde;
+    display: block;
+    border-radius: 7px;
+    padding: 7px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+
+
+    &:hover {
+        scale: 1.05;
+        background-color: $verdefuerte;
+        transition: .3;
+        box-shadow: 2px 2px 2px #88898c;
+    }
+}
+

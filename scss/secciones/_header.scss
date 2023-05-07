@@ -1,12 +1,21 @@
 /* HEADER SECTION */
+
 .logo {
     display: inline;
+
 }
+
 
 .navbar-expand-lg {
     display: flex !important;
     flex-basis: auto;
     justify-content: space-around;
+
+    nav a img {
+        width: 25hv;
+    }
+
+
 }
 
 li {

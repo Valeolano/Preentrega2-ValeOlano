@@ -1,0 +1,92 @@
+
+@media (max-width: 1200px) {
+    .header {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .bannerschicosindex {
+        flex-direction: column;
+        align-items: center
+    }
+
+    .clases {
+        flex-direction: column;
+
+        align-content: space-around;
+
+        p {
+            width: 90vw;
+            margin-top: 10px;
+        }
+
+    }
+
+
+    .botonclases {
+        display: block;
+        align-content: center;
+    }
+
+    .grid-tips {
+        grid-template-columns: repeat(2, 350px);
+        grid-template-rows: repeat(3, 400px);
+    }
+
+}
+
+@media (max-width: 768px) {
+    .clases {
+        img {
+            width: 90vw;
+        }
+
+        p {
+            margin-top: 10px;
+        }
+    }
+
+
+
+    .herramientas-meditacion {
+        align-items: center;
+    }
+
+    .ul-nav {
+        width: 350px;
+        font-size: 13px;
+        text-align: center;
+        justify-content: flex-end;
+    }
+
+    .grid-tips {
+        grid-template-columns: repeat(1, 350px);
+        grid-template-rows: repeat(5, 400px);
+    }
+
+    .contacto-flex {
+        flex-direction: column;
+        padding: 20px 0px;
+    }
+
+    .contacto {
+        flex-direction: row;
+        align-content: center;
+        padding: 20px 0px;
+        font-size: 15px;
+
+        img {
+            visibility: hidden;
+            display: none;
+        }
+
+
+    }
+
+
+
+    .herramientas-meditacion iframe {
+        width: 400px;
+        height: 240px;
+    }
+}

@@ -1,0 +1,39 @@
+/* MAIN CONTACTO */
+.contacto-flex {
+    background-color: #E49393;
+    text-decoration-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h2 {
+        color: white;
+        padding: 10px;
+    }
+
+    h3 {
+        color: white;
+        padding: 10px;
+    }
+}
+
+
+
+.formulario {
+    padding: 20px;
+    border-color: $verde;
+}
+
+.mapa {
+    padding: 20px;
+    justify-content: center;
+    width: 90vw;
+}
