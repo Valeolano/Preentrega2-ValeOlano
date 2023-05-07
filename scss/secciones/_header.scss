@@ -1,0 +1,35 @@
+/* HEADER SECTION */
+.logo {
+    display: inline;
+}
+
+.navbar-expand-lg {
+    display: flex !important;
+    flex-basis: auto;
+    justify-content: space-around;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    background-color: $verde;
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    padding: 10px;
+    border-radius: 7px;
+
+    &:hover {
+        scale: 1.05;
+        background-color: $verdefuerte;
+        transition: .3;
+        box-shadow: 2px 2px 2px #88898c;
+    }
+}
+
+
+a {
+    color: white;
+
+
+}

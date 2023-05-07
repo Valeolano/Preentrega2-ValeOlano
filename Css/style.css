@@ -1,363 +1,229 @@
 /* Paleta de colores
-
-verde oscuro #245953
-verde principal #408E91
-Salmon #E49393
-gris #D8D8D8
-*/
-
-
-
+verde oscuro #245953 verde principal #408E91 Salmon #E49393 gris #D8D8D8*/
 * {
-    margin: 0px;
-    padding: 0px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
 
 /* HEADER SECTION */
-
 .logo {
-    display: inline;
-}
-
+  display: inline; }
 
 .navbar-expand-lg {
-    display: flex !important;
-    flex-basis: auto;
-    justify-content: space-around;
-    
-
-}
-
-
-.ul-nav {
-
-    list-style: none;
-
-
-}
+  display: flex !important;
+  flex-basis: auto;
+  justify-content: space-around; }
 
 li {
-    display: inline-block;
-    background-color: #408E91;
-    color: white;
-    text-decoration: none;
-    font-weight: bolder;
-    padding: 10px;
-    border-radius: 7px;
-
-}
-
-
-.ul-nav a {
-    text-decoration: none;
-}
-
-.ul-nav li:hover {
+  list-style: none;
+  display: inline-block;
+  background-color: #408E91;
+  color: white;
+  text-decoration: none;
+  font-weight: bolder;
+  padding: 10px;
+  border-radius: 7px; }
+  li:hover {
     scale: 1.05;
-    background-color: #D8D8D8;
+    background-color: #245953;
     transition: .3;
-    box-shadow: 2px 2px 2px #88898c;
-}
+    box-shadow: 2px 2px 2px #88898c; }
 
 a {
-    color: white;
-}
-
-a:hover {
-    color: #408E91;
-}
-
+  color: white; }
 
 /* MAIN SECTION */
-
-#frase {
-    font-family: 'Roboto', sans-serif;
-    padding: 20px;
-    text-align: center;
-}
+.frase-1, .frase-2 {
+  font-family: 'Roboto', sans-serif;
+  padding: 20px;
+  text-align: center; }
 
 .titulo {
-    font-style: italic;
-    color: #408E91;
-    padding: 20px;
-    text-align: center;
-}
-
+  font-style: italic;
+  color: #408E91;
+  padding: 20px;
+  text-align: center; }
 
 .negrita {
-    font-weight: bold;
-}
-
-
-
-
+  font-weight: bold; }
 
 h2 {
-    padding-left: 20px;
-    padding-top: 20px;
-
-}
-
-
+  padding-left: 20px;
+  padding-top: 20px; }
 
 .fondo-gris {
-    background-color: #D8D8D8;
-}
+  background-color: #D8D8D8; }
 
 /* MAIN INDEX */
-
 #main-index img {
-    width: 100vw;
-}
-
-
+  width: 100vw; }
 
 .bannerschicosindex {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around; }
 
 .banner {
-    padding: 20px;
-}
-
-
+  padding: 20px; }
 
 /* MAIN MEDITACION */
-
 .respiracion-img {
-    max-width: 100vw;
-}
+  max-width: 100vw; }
 
-
+.frase-2 {
+  color: #408E91; }
 
 .parrafo {
-    padding: 20px;
-    text-align: justify;
-    margin-left: 10vw;
-    margin-right: 10vw;
-    align-items: center;
-    line-height: 30px;
-    font-size: 20px;
-    max-width: 90vw;
-}
+  padding: 20px;
+  text-align: justify;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  align-items: center;
+  line-height: 30px;
+  font-size: 20px;
+  max-width: 90vw; }
 
 .herramientas-meditacion {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-
-
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly; }
 
 /* MAIN CONTACTO */
-
 .contacto-flex {
-    background-color: #E49393;
-    text-decoration-color: white;
-    display: grid;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 20px;
-}
+  background-color: #E49393;
+  text-decoration-color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px; }
 
 .contacto {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.contacto h2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .contacto h2 {
     color: white;
-    padding: 10px;
-}
-
-.contacto h3 {
+    padding: 10px; }
+  .contacto h3 {
     color: white;
-    padding: 10px;
-}
+    padding: 10px; }
 
 .formulario {
-    padding: 20px;
-    border-color: #408E91;
-}
+  padding: 20px;
+  border-color: #408E91; }
 
 .mapa {
-    padding: 20px;
-    justify-content: center;
-    width: 90vw;
-}
+  padding: 20px;
+  justify-content: center;
+  width: 90vw; }
 
 /* MAIN CLASES */
-
 #main-clases {
-    background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
-   
-}
+  background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%); }
 
 .titulo-clases {
-    text-align: center;
-    margin-top: 20px;
-}
+  text-align: center;
+  margin-top: 20px; }
 
 .clases {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding: 30px;
-    align-items: center;
-    justify-content: space-evenly
-}
-
-.clases p {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 30px;
+  align-items: center; }
+  .clases p {
     text-align: justify;
     width: 40vw;
     line-height: 30px;
-    font-size: 20px;
-
-}
-
-.clases img {
-    width: 45vw;
-}
+    font-size: 20px; }
+  .clases img {
+    width: 45vw; }
 
 .botonclases {
-    background-color: #408E91;
-    border-radius: 7px;
-    padding: 7px;
-    text-decoration: none;
-    text-align: center;
-}
-
-.botonclases:hover {
+  background-color: #408E91;
+  display: block;
+  border-radius: 7px;
+  padding: 7px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 20px; }
+  .botonclases:hover {
     scale: 1.05;
-    background-color: #D8D8D8;
+    background-color: #245953;
     transition: .3;
-    box-shadow: 2px 2px 2px #88898c;
-}
-
+    box-shadow: 2px 2px 2px #88898c; }
 
 /* TIPS SALUDABLES SECTION */
-
 .grid-tips {
-    display: grid;
-    grid-template-columns: repeat(3, 350px);
-    grid-template-rows: repeat(2, 400px);
-    margin: auto;
-    justify-content: space-around;
-    align-items: center;
-
-}
-
+  display: grid;
+  grid-template-columns: repeat(3, 350px);
+  grid-template-rows: repeat(2, 400px);
+  margin: auto;
+  justify-content: space-around;
+  align-items: center; }
 
 /* FOOTER SECTION */
 .footer {
-    background-color: #408E91;
-    padding: 10px;
-    height: 15vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center
-}
-
-.footer a img {
-    width: 10vh;
-}
-
+  background-color: #408E91;
+  padding: 10px;
+  height: 15vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center; }
+  .footer a img {
+    width: 10vh; }
 
 @media (max-width: 1200px) {
-    .header {
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    .bannerschicosindex {
-        flex-direction: column;
-        align-items: center
-    }
-
-    .clases {
-        flex-direction: column;
-        align-content: space-around
-    }
-
+  .header {
+    flex-direction: column;
+    justify-content: center; }
+  .bannerschicosindex {
+    flex-direction: column;
+    align-items: center; }
+  .clases {
+    flex-direction: column;
+    align-content: space-around; }
     .clases p {
-        width: 90vw;
-        margin-top: 10px;
-    }
-
-    .botonclases {
-        display: block;
-        align-content: center;
-    }
-
-    .grid-tips {
-        grid-template-columns: repeat(2, 350px);
-        grid-template-rows: repeat(3, 400px);
-
-    }
-
-
-    
-}
+      width: 90vw;
+      margin-top: 10px; }
+  .botonclases {
+    display: block;
+    align-content: center; }
+  .grid-tips {
+    grid-template-columns: repeat(2, 350px);
+    grid-template-rows: repeat(3, 400px); } }
 
 @media (max-width: 768px) {
-
-    .clases img {
-        width: 90vw;
-    }
-
-    .clases p {
-        margin-top: 10px;
-    }
-
-    .herramientas-meditacion {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .ul-nav {
-        width: 350px;
-        font-size: 13px;
-        text-align: center;
-        justify-content: flex-end;
-       
-    }
-
-    .grid-tips {
-        grid-template-columns: repeat(1, 350px);
-        grid-template-rows: repeat(5, 400px);
-
-    }
-
-    .contacto-flex {
-        flex-direction: column;
-        padding: 20px 0px;
-
-    }
-
-    .contacto {
-        flex-direction: row;
-        align-content: center;
-        padding: 20px 0px;
-        font-size: 15px;
-    }
-
+  .clases img {
+    width: 90vw; }
+  .clases p {
+    margin-top: 10px; }
+  .herramientas-meditacion {
+    align-items: center; }
+  .ul-nav {
+    width: 350px;
+    font-size: 13px;
+    text-align: center;
+    justify-content: flex-end; }
+  .grid-tips {
+    grid-template-columns: repeat(1, 350px);
+    grid-template-rows: repeat(5, 400px); }
+  .contacto-flex {
+    flex-direction: column;
+    padding: 20px 0px; }
+  .contacto {
+    flex-direction: row;
+    align-content: center;
+    padding: 20px 0px;
+    font-size: 15px; }
     .contacto img {
-        visibility: hidden;
-        display: none;
-    }
-
-.herramientas-meditacion iframe{
-width: 400px;
-height: 240px;
-}
-}
-
+      visibility: hidden;
+      display: none; }
+  .herramientas-meditacion iframe {
+    width: 400px;
+    height: 240px; } }

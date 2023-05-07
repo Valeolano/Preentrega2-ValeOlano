@@ -1,0 +1,289 @@
+@import "./recursos/variables";
+@import "./recursos/mixin";
+
+@import "./recursos/reset";
+@import "./secciones/header";
+
+
+
+/* MAIN SECTION */
+.frase-1 {
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+    text-align: center;
+}
+
+.titulo {
+    font-style: italic;
+    color: $verde;
+    padding: 20px;
+    text-align: center;
+}
+
+.negrita {
+    font-weight: bold;
+}
+
+
+
+
+h2 {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+
+.fondo-gris {
+    background-color: #D8D8D8;
+}
+
+/* MAIN INDEX */
+#main-index img {
+    width: 100vw;
+}
+
+
+.bannerschicosindex {
+    @include flex(row, wrap, space-around)
+}
+
+.banner {
+    padding: 20px;
+}
+
+
+/* MAIN MEDITACION */
+.respiracion-img {
+    max-width: 100vw;
+}
+
+.frase-2 {
+    @extend .frase-1;
+    color: $verde;
+}
+
+
+.parrafo {
+    padding: 20px;
+    text-align: justify;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    align-items: center;
+    line-height: 30px;
+    font-size: 20px;
+    max-width: 90vw;
+}
+
+.herramientas-meditacion {
+    @include flex(row, wrap, space-evenly)
+
+}
+
+
+/* MAIN CONTACTO */
+.contacto-flex {
+    background-color: #E49393;
+    text-decoration-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h2 {
+        color: white;
+        padding: 10px;
+    }
+
+    h3 {
+        color: white;
+        padding: 10px;
+    }
+}
+
+
+
+.formulario {
+    padding: 20px;
+    border-color: $verde;
+}
+
+.mapa {
+    padding: 20px;
+    justify-content: center;
+    width: 90vw;
+}
+
+/* MAIN CLASES */
+#main-clases {
+    background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+}
+
+.titulo-clases {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.clases {
+
+    @include flex(row, wrap, space-evenly);
+    padding: 30px;
+    align-items: center;
+
+    p {
+        text-align: justify;
+        width: 40vw;
+        line-height: 30px;
+        font-size: 20px;
+    }
+
+    img {
+        width: 45vw;
+    }
+
+}
+
+
+.botonclases {
+    background-color: $verde;
+    display: block;
+    border-radius: 7px;
+    padding: 7px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+
+
+    &:hover {
+        scale: 1.05;
+        background-color: $verdefuerte;
+        transition: .3;
+        box-shadow: 2px 2px 2px #88898c;
+    }
+}
+
+/* TIPS SALUDABLES SECTION */
+.grid-tips {
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    grid-template-rows: repeat(2, 400px);
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* FOOTER SECTION */
+.footer {
+    background-color: $verde;
+    padding: 10px;
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+    a img {
+        width: 10vh;
+    }
+
+}
+
+
+
+@media (max-width: 1200px) {
+    .header {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .bannerschicosindex {
+        flex-direction: column;
+        align-items: center
+    }
+
+    .clases {
+        flex-direction: column;
+
+        align-content: space-around;
+
+        p {
+            width: 90vw;
+            margin-top: 10px;
+        }
+
+    }
+
+
+    .botonclases {
+        display: block;
+        align-content: center;
+    }
+
+    .grid-tips {
+        grid-template-columns: repeat(2, 350px);
+        grid-template-rows: repeat(3, 400px);
+    }
+
+}
+
+@media (max-width: 768px) {
+    .clases {
+        img {
+            width: 90vw;
+        }
+
+        p {
+            margin-top: 10px;
+        }
+    }
+
+
+
+    .herramientas-meditacion {
+        align-items: center;
+    }
+
+    .ul-nav {
+        width: 350px;
+        font-size: 13px;
+        text-align: center;
+        justify-content: flex-end;
+    }
+
+    .grid-tips {
+        grid-template-columns: repeat(1, 350px);
+        grid-template-rows: repeat(5, 400px);
+    }
+
+    .contacto-flex {
+        flex-direction: column;
+        padding: 20px 0px;
+    }
+
+    .contacto {
+        flex-direction: row;
+        align-content: center;
+        padding: 20px 0px;
+        font-size: 15px;
+
+        img {
+            visibility: hidden;
+            display: none;
+        }
+
+
+    }
+
+
+
+    .herramientas-meditacion iframe {
+        width: 400px;
+        height: 240px;
+    }
+}
