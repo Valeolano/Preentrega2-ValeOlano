@@ -22,14 +22,31 @@
     h3 {
         color: white;
         padding: 10px;
+        font-size: 25px;
     }
+   
 }
 
+.btn-primary {
+    background-color: $verde;
+    border: none;
+    margin: 5px;
 
+    &:hover {
+        scale: 1.05;
+        background-color: $verdefuerte;
+        transition: .3;
+        box-shadow: 2px 2px 2px #88898c;
+    }  
+}
 
 .formulario {
     padding: 20px;
     border-color: $verde;
+}
+
+#exampleCheck1{
+    margin-left: 15px;
 }
 
 .mapa {

@@ -14,7 +14,7 @@ verde oscuro #245953 verde principal #408E91 Salmon #E49393 gris #D8D8D8*/
   flex-basis: auto;
   justify-content: space-around; }
   .navbar-expand-lg nav a img {
-    width: 25hv; }
+    height: 25hv; }
 
 li {
   list-style: none;
@@ -116,8 +116,8 @@ h2 {
 .parrafo {
   padding: 20px;
   text-align: justify;
-  margin-left: 10vw;
-  margin-right: 10vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
   align-items: center;
   line-height: 30px;
   font-size: 20px;
@@ -157,11 +157,25 @@ h2 {
     padding: 10px; }
   .contacto h3 {
     color: white;
-    padding: 10px; }
+    padding: 10px;
+    font-size: 25px; }
+
+.btn-primary {
+  background-color: #408E91;
+  border: none;
+  margin: 5px; }
+  .btn-primary:hover {
+    scale: 1.05;
+    background-color: #245953;
+    transition: .3;
+    box-shadow: 2px 2px 2px #88898c; }
 
 .formulario {
   padding: 20px;
   border-color: #408E91; }
+
+#exampleCheck1 {
+  margin-left: 15px; }
 
 .mapa {
   padding: 20px;
@@ -226,6 +240,8 @@ h2 {
     .contacto img {
       visibility: hidden;
       display: none; }
+    .contacto h3 {
+      font-size: 20px; }
   .herramientas-meditacion iframe {
     width: 400px;
     height: 240px; } }
