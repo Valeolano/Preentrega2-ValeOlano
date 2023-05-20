@@ -17,6 +17,7 @@
     h2 {
         color: white;
         padding: 10px;
+        font-size: 30px;
     }
 
     h3 {
@@ -24,17 +25,16 @@
         padding: 10px;
         font-size: 25px;
     }
-   
+
 }
 
-.formulario{
+.formulario {
     width: 50vw;
     margin-left: 25vw;
-    // display: flex;
-    // flex-direction: column;
-    // justify-content: center;
-  
+
+    
 }
+
 
 .btn-primary {
     background-color: $verde;
@@ -46,19 +46,24 @@
         background-color: $verdefuerte;
         transition: .3;
         box-shadow: 2px 2px 2px #88898c;
-    }  
-}
+    }
 
-
-
-#exampleCheck1{
-    margin-left: 15px;
-}
-
-.mapa {
+        &:active{
+            background-color: $verdefuerte !important;
+        }
     
-    justify-content: center;
-    width: 80vw;
-    margin-left: 10vw;
-    margin-bottom: 10px;
-}
+    }
+
+
+
+    #exampleCheck1 {
+        margin-left: 15px;
+    }
+
+    .mapa {
+
+        justify-content: center;
+        width: 80vw;
+        margin-left: 10vw;
+        margin-bottom: 10px;
+    }

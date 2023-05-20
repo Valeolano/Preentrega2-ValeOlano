@@ -51,7 +51,8 @@ a {
 
 h2 {
   padding-left: 20px;
-  padding-top: 20px; }
+  padding-top: 20px;
+  font-size: 30px; }
 
 .fondo-gris {
   background-color: #D8D8D8; }
@@ -62,6 +63,8 @@ h2 {
   #carouselExampleCaptions .carousel-item {
     height: 70vh;
     overflow: hidden; }
+  #carouselExampleCaptions h5 {
+    text-shadow: 0px 0px 7px black; }
 
 .bannerschicosindex {
   display: flex;
@@ -157,7 +160,8 @@ h2 {
   align-items: center; }
   .contacto h2 {
     color: white;
-    padding: 10px; }
+    padding: 10px;
+    font-size: 30px; }
   .contacto h3 {
     color: white;
     padding: 10px;
@@ -176,6 +180,8 @@ h2 {
     background-color: #245953;
     transition: .3;
     box-shadow: 2px 2px 2px #88898c; }
+  .btn-primary:active {
+    background-color: #245953 !important; }
 
 #exampleCheck1 {
   margin-left: 15px; }
