@@ -36,8 +36,14 @@ h2 {
 }
 
 /* MAIN INDEX */
-#main-index img {
-    width: 100vw;
+#carouselExampleCaptions {
+    max-height: 70vh;
+
+ .carousel-item{
+  height: 70vh;
+    overflow:hidden;
+ 
+    }
 }
 
 

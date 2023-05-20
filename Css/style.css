@@ -57,8 +57,11 @@ h2 {
   background-color: #D8D8D8; }
 
 /* MAIN INDEX */
-#main-index img {
-  width: 100vw; }
+#carouselExampleCaptions {
+  max-height: 70vh; }
+  #carouselExampleCaptions .carousel-item {
+    height: 70vh;
+    overflow: hidden; }
 
 .bannerschicosindex {
   display: flex;
@@ -160,6 +163,10 @@ h2 {
     padding: 10px;
     font-size: 25px; }
 
+.formulario {
+  width: 50vw;
+  margin-left: 25vw; }
+
 .btn-primary {
   background-color: #408E91;
   border: none;
@@ -170,17 +177,14 @@ h2 {
     transition: .3;
     box-shadow: 2px 2px 2px #88898c; }
 
-.formulario {
-  padding: 20px;
-  border-color: #408E91; }
-
 #exampleCheck1 {
   margin-left: 15px; }
 
 .mapa {
-  padding: 20px;
   justify-content: center;
-  width: 90vw; }
+  width: 80vw;
+  margin-left: 10vw;
+  margin-bottom: 10px; }
 
 /* FOOTER SECTION */
 .footer {
@@ -215,6 +219,11 @@ h2 {
     grid-template-rows: repeat(3, 400px); } }
 
 @media (max-width: 768px) {
+  #carouselExampleCaptions {
+    max-height: 30vh; }
+    #carouselExampleCaptions .carousel-item {
+      height: 30vh;
+      overflow: hidden; }
   .clases img {
     width: 90vw; }
   .clases p {
@@ -242,6 +251,12 @@ h2 {
       display: none; }
     .contacto h3 {
       font-size: 20px; }
+  .formulario {
+    width: 90vw;
+    margin-left: 5vw; }
+  .mapa {
+    width: 90vw;
+    margin-left: 5vw; }
   .herramientas-meditacion iframe {
     width: 400px;
     height: 240px; } }
