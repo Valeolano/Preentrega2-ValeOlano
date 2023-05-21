@@ -58,12 +58,12 @@ h2 {
   background-color: #D8D8D8; }
 
 /* MAIN INDEX */
-#carouselExampleCaptions {
-  max-height: 70vh; }
-  #carouselExampleCaptions .carousel-item {
+.carousel {
+  height: 70vh; }
+  .carousel .carousel-item {
     height: 70vh;
     overflow: hidden; }
-  #carouselExampleCaptions h5 {
+  .carousel h5 {
     text-shadow: 0px 0px 7px black; }
 
 .bannerschicosindex {
@@ -225,9 +225,9 @@ h2 {
     grid-template-rows: repeat(3, 400px); } }
 
 @media (max-width: 768px) {
-  #carouselExampleCaptions {
+  .carousel {
     max-height: 30vh; }
-    #carouselExampleCaptions .carousel-item {
+    .carousel .carousel-item {
       height: 30vh;
       overflow: hidden; }
   .clases img {

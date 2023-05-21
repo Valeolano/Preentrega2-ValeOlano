@@ -36,7 +36,7 @@
 
 @media (max-width: 768px) {
 
-    #carouselExampleCaptions {
+    .carousel{
         max-height: 30vh;
     
      .carousel-item{
@@ -45,6 +45,9 @@
      
         }
     }
+
+
+
 
     .clases {
         img {
